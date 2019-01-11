@@ -1,0 +1,45 @@
+body {
+    margin: auto 0;
+    background-image: url("../images/pexels-photo-373076.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: rgb(36,41,46);
+    font-family: 'Roboto Slab', serif;
+
+}
+nav {
+    background: rgb(36,41,46);
+    color: white;
+}
+
+.jumbotron {
+    background: rgb(255, 255, 255, 0.9);
+    border-radius: 25px;
+    color: rgb(36,41,46);
+}
+.portfolio-container {
+    text-align: center;
+}
+.card {
+    margin: 5px;
+}
+img {
+    height: 200px;
+}
+.contact-form {
+    background: rgb(255, 255, 255, 0.9);
+    border-radius: 25px;
+    color: rgb(36,41,46);
+}
+a {
+    color: white;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+footer {
+    background: rgb(36,41,46,0.9);
+    color: white;
+}
