@@ -88,10 +88,10 @@ footer {
     .jumbotron {
         background: rgb(30, 34, 37);
     }
-    .footer {
+    footer {
         background: rgb(30, 34, 37);
     }
-    .nav {
+    nav {
         background: rgb(30, 34, 37);
     }
 }
