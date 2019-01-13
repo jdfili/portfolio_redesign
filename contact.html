@@ -47,19 +47,19 @@
                 <h2>Contact</h2>
                 <hr>
             </div>
-            <form>
+            <form action="https://formspree.io/jdfili14@gmail.com" method="POST">
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                    <input type="email" name="email" class="form-control" id="exampleFormControlInput1">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput2">Name</label>
-                    <input type="name" class="form-control" id="exampleFormControlInput2">
+                    <input type="name" name="name" class="form-control" id="exampleFormControlInput2">
                 </div>
                 <div class="form-group text-center pb-4 mb-4">
                     <label for="exampleFormControlTextarea1">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    <input class="btn mt-4" type="submit" value="Submit">
+                    <input class="btn mt-4" type="submit" name="message" value="Submit">
                 </div>
             </form>
         </div>
