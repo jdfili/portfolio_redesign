@@ -52,12 +52,14 @@ img {
     background: rgb(36,41,46,0.9);
     color: white;
 }
+
 .portfolio-btn {
     background: rgb(36,41,46,0.9);
+    padding-right: 30px;
     transition: 0.3s;
 }
 .portfolio-btn:hover {
-    transform: scale(1.05, 1.05)
+    transform: scale(1.05, 1.05);
 }
 a {
     color: white;
