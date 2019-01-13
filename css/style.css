@@ -1,6 +1,6 @@
-html, body {
+body {
     margin: auto 0;
-    background-image: url("../images/pexels-photo-373076.jpeg");
+    background-image: url("../images/business-computer-connection-450035.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -16,15 +16,21 @@ nav {
 }
 
 .jumbotron {
-    background: rgb(255, 255, 255, 0.9);
+    background: rgb(36,41,46,0.9);
     border-radius: 25px;
-    color: rgb(36,41,46);
+    color: white;
+
+}
+
+hr {
+    background: rgba(144, 125, 125, 0.9);
 }
 .portfolio-container {
     text-align: center;
 }
 .card {
     margin: 5px;
+    border: 0px;
 }
 img {
     height: 200px;
@@ -38,9 +44,20 @@ img {
     display: block;
 }
 .contact-form {
-    background: rgb(255, 255, 255, 0.9);
+    background: rgba(144, 125, 125, 0.9);
     border-radius: 25px;
     color: rgb(36,41,46);
+}
+.btn {
+    background: rgb(36,41,46,0.9);
+    color: white;
+}
+.portfolio-btn {
+    background: rgb(36,41,46,0.9);
+    transition: 0.3s;
+}
+.portfolio-btn:hover {
+    transform: scale(1.05, 1.05)
 }
 a {
     color: white;
@@ -48,6 +65,7 @@ a {
 a:hover {
     cursor: pointer;
     text-decoration: none;
+    color: white;
 }
 footer, .page-wrap:after {
     height: 5em; 
@@ -62,4 +80,5 @@ footer {
     height: 5em;
     font-size: 12px;
 }
+
 
