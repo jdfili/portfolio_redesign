@@ -25,6 +25,12 @@ nav {
 hr {
     background: rgba(144, 125, 125, 0.9);
 }
+
+.my-pic {
+    width:250px; 
+    height:250px; 
+    border-radius: 10px;
+}
 .portfolio-container {
     text-align: center;
 }
@@ -36,8 +42,8 @@ img {
     height: 200px;
 }
 .page-wrap {
-    min-height: 100%;
-    margin-bottom: -5em; 
+    height: 100vh;
+    min-height: 100vh;
 }
 .page-wrap:after {
     content: "";
@@ -84,7 +90,7 @@ footer {
 }
 /* Media queries */
 @media only screen and (max-width: 988px) {
-  
+    
     .jumbotron {
         background: rgb(30, 34, 37);
     }
@@ -94,4 +100,39 @@ footer {
     nav {
         background: rgb(30, 34, 37);
     }
+    .btn {
+        background: rgb(30, 34, 37);
+    }
+    .page-wrap {
+        height: 100%;
+    }
+   .about{
+       position: relative;
+       word-wrap: break-word;
+   }
+   .about-text {
+       padding-left: 7em;
+   }
+   
 }
+@media (min-width: 768px) {
+    .about {
+        height: 60vh;
+        font-size: 1.50em;
+    }
+
+    .page-wrap {
+        height: 100%;
+    }
+   
+    .about-text {
+        padding-left: 5em;
+        height: 75%;
+    }
+}
+/* @media screen and (max-width:750px){ 
+    .img {
+        text-align: center;
+    }
+}
+     */
