@@ -89,6 +89,7 @@ footer {
     font-size: 12px;
 }
 /* Media queries */
+
 @media only screen and (max-width: 988px) {
     
     .jumbotron {
@@ -118,7 +119,7 @@ footer {
 @media (min-width: 768px) {
     .about {
         height: 60vh;
-        font-size: 1.50em;
+        font-size: 1.45em;
     }
 
     .page-wrap {
@@ -129,10 +130,24 @@ footer {
         padding-left: 5em;
         height: 75%;
     }
-}
-/* @media screen and (max-width:750px){ 
-    .img {
-        text-align: center;
+    .jumbotron {
+        height:100vh;
     }
 }
-     */
+@media screen and (max-width:400px){ 
+    .jumbotron {
+        background: rgb(30, 34, 37);
+    }
+    footer {
+        background: rgb(30, 34, 37);
+    }
+    nav {
+        background: rgb(30, 34, 37);
+    }
+    .btn {
+        background: rgb(30, 34, 37);
+    }
+    
+    
+}
+    
