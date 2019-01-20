@@ -121,7 +121,10 @@ footer {
         height: 60vh;
         font-size: 1.45em;
     }
-
+    .my-pic{
+        height: 400px;
+        width: 400px;
+    }
     .page-wrap {
         height: 100%;
     }
@@ -129,10 +132,9 @@ footer {
     .about-text {
         padding-left: 5em;
         height: 75%;
+        word-wrap: break-word
     }
-    .jumbotron {
-        height:100vh;
-    }
+
 }
 @media screen and (max-width:400px){ 
     .jumbotron {
@@ -147,7 +149,12 @@ footer {
     .btn {
         background: rgb(30, 34, 37);
     }
-    
+    .about {
+        font-size: 1em;
+    }
+    .about-text {
+        position: relative;
+
+    }
     
 }
-    
