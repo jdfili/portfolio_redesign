@@ -58,7 +58,18 @@ img {
     background: rgb(36,41,46,0.9);
     color: white;
 }
-
+.github-link {
+    border-radius: 100%;
+    margin-top: 2px;
+    padding: 0;
+    position: relative;
+    left: 44%;
+}
+.github-icon {
+    text-align: center;
+    left: 4px;
+    position: relative;
+}
 .portfolio-btn {
     background: rgb(36,41,46,0.9);
     padding-right: 30px;
@@ -118,19 +129,19 @@ footer {
 }
 @media (min-width: 768px) {
     .about {
-        height: 60vh;
+        height: 80vh;
         font-size: 1.45em;
     }
     .my-pic{
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
     }
     .page-wrap {
         height: 100%;
     }
    
     .about-text {
-        padding-left: 5em;
+        padding-left: 2em;
         height: 75%;
         word-wrap: break-word
     }
