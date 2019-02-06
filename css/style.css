@@ -40,6 +40,11 @@ hr {
 }
 img {
     height: 200px;
+    filter: grayscale(1);
+    transition: all .75s;
+}
+img:hover {
+    filter: none;
 }
 .page-wrap {
     height: 100vh;
