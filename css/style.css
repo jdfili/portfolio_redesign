@@ -40,6 +40,7 @@ hr {
 }
 img {
     height: 200px;
+    border: 1px solid rgb(30, 34, 37);
 }
 .page-wrap {
     height: 100vh;
