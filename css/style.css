@@ -33,6 +33,7 @@ hr {
 }
 .portfolio-container {
     text-align: center;
+    min-height: 275vh;
 }
 .card {
     margin: 5px;
@@ -41,6 +42,10 @@ hr {
 img {
     height: 200px;
     border: 1px solid rgb(30, 34, 37);
+}
+.description {
+    height: 15px;
+    font-size: 12px;
 }
 .page-wrap {
     height: 100vh;
@@ -167,6 +172,13 @@ footer {
     .about-text {
         position: relative;
 
+    }
+    .page-wrap:after {
+        content: none;
+        display: block;
+    }
+    .portfolio-container {
+        height: 490vh
     }
     
 }
