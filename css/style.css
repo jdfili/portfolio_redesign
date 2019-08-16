@@ -19,6 +19,7 @@ nav {
     background: rgb(36,41,46,0.9);
     border-radius: 25px;
     color: white;
+    margin: auto;
 
 }
 
@@ -33,6 +34,7 @@ hr {
 }
 .portfolio-container {
     text-align: center;
+    height: 275vh;
     min-height: 275vh;
 }
 .card {
@@ -131,6 +133,7 @@ footer {
    .about-text {
        padding-left: 7em;
    }
+  
    
 }
 @media (min-width: 768px) {
@@ -152,7 +155,10 @@ footer {
         word-wrap: break-word
     }
 
+
 }
+
+
 @media screen and (max-width:400px){ 
     .jumbotron {
         background: rgb(30, 34, 37);
