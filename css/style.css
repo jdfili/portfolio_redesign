@@ -40,6 +40,10 @@ hr {
 .card {
     margin: 5px;
     border: 0px;
+    transition: .4s;
+}
+.card:hover {
+    filter: grayscale();
 }
 img {
     height: 200px;
